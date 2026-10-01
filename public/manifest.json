@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "AB Baloch's Library - Smart Bilingual Study & Learning App",
+  "short_name": "AB Library",
+  "description": "AB Baloch's Library: Bilingual Urdu/English study app featuring GK, Islamiyat, Urdu, Math, Computer, Pak Studies, offline caching, solved PDF notes, and past papers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FB",
+  "theme_color": "#0F9D75",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

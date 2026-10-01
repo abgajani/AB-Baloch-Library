@@ -1,0 +1,8 @@
+{
+  "name": "AB Baloch\u0027s Library",
+  "description": "Master your studies with interactive lessons, quizzes, and progress tracking in Urdu and English for all grade levels.b",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

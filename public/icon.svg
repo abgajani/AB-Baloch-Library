@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ilmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F9D75"/>
+      <stop offset="100%" stop-color="#1B2A49"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5B83D"/>
+      <stop offset="100%" stop-color="#E5A625"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#ilmGrad)"/>
+  <!-- Islamic Crescent & Star accent -->
+  <path d="M 330 140 A 130 130 0 1 1 200 360 A 110 110 0 1 0 330 140 Z" fill="#ffffff" opacity="0.15"/>
+  <!-- Open Book Symbol -->
+  <path d="M 140 330 Q 256 310 256 350 Q 256 310 372 330 L 372 200 Q 256 180 256 220 Q 256 180 140 200 Z" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central bookmark/spark -->
+  <path d="M 256 160 L 268 190 L 298 202 L 268 214 L 256 244 L 244 214 L 214 202 L 244 190 Z" fill="url(#goldGrad)"/>
+  <!-- Calligraphy text "علم" -->
+  <text x="256" y="440" font-family="'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif" font-size="78" font-weight="bold" fill="#ffffff" text-anchor="middle">علم</text>
+</svg>

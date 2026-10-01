@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-heading: 'Poppins', var(--font-sans);
+    --font-urdu: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+    --font-arabic: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif;
+  }
+}
+
+.font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+  line-height: 2.1;
+}
+
+.font-arabic {
+  font-family: 'Noto Naskh Arabic', serif;
+  line-height: 1.8;
+}
+
+/* Custom scrollbar for clean study app */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Islamic arabesque subtle pattern overlay */
+.bg-arabesque {
+  background-color: #0F9D75;
+  background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.12) 1.5px, transparent 1.5px),
+                    radial-gradient(circle at 0% 100%, rgba(245, 184, 61, 0.08) 2px, transparent 2px);
+  background-size: 24px 24px, 48px 48px;
+}
+
+.bg-pattern-dots {
+  background-image: radial-gradient(rgba(15, 157, 117, 0.12) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
